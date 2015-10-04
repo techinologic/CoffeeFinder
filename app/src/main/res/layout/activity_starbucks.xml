@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.coffeefinder.Starbucks">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300sp"
+        android:id="@+id/imgStarbucks"
+        android:src="@drawable/starbucks"
+        android:layout_below="@+id/txtStarbucks"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/starbucks" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtStarbucks"
+        android:id="@+id/txtStarbucks"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtAddStarbucks"
+        android:id="@+id/txtAddStarbucks"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgStarbucks"
+        android:textSize="30sp"
+        style="@style/RtlOverlay.Widget.AppCompat.ActionButton.Overflow" />
+
+    <Button
+        style="@style/RtlOverlay.Widget.AppCompat.ActionButton.Overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/webStarbucks"
+        android:id="@+id/webStarbucks"
+        android:textSize="25sp"
+        android:layout_above="@+id/callStarbucks"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/RtlOverlay.Widget.AppCompat.ActionButton.Overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/callStarbucks"
+        android:id="@+id/callStarbucks"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CoffeeFinder</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="starbucks">Starbucks Coffee Image</string>
+    <string name="breadfurst">Bread Furst Bakery</string>
+    <string name="politics">Politics and Prose Bookstore and Coffeehouse Image</string>
+    <string name="coffeeNature">Coffee Nature Image</string>
+    <string name="txtStarbucks">Starbucks Coffee</string>
+    <string name="txtBreadFurst">Bread Furst Bakery</string>
+    <string name="txtPolitics">Politics and Prose Bookstore and Coffeehouse</string>
+    <string name="txtCoffeeNature">Coffee Nature</string>
+    <string name="txtAddStarbucks">4250 Connecticut Ave NW Washington, DC 20008</string>
+    <string name="txtAddCoffeeNature">4224 Fessenden St NW Washington, DC 20016</string>
+    <string name="txtAddPolitics">5015 Connecticut Ave NW Washington, DC 20008</string>
+    <string name="txtAddBreadFurst">4434 Connecticut Ave Washington, DC 20008</string>
+    <string name="title_activity_starbucks">Starbucks Coffee</string>
+    <string name="title_activity_bread_furst">Bread Furst Bakery</string>
+    <string name="title_activity_politics">Politics and Prose Bookstore and Coffeehouse</string>
+    <string name="title_activity_coffee_nature">Coffee Nature</string>
+    <string name="webStarbucks">www.starbucks.com</string>
+    <string name="callStarbucks">(202)364–2796</string>
+    <string name="webBreadFurst">www.breadfurst.com</string>
+    <string name="callBreadFurst">(202)765–1200</string>
+    <string name="callPolitics">(202)364–1919</string>
+    <string name="webPolitics">www.politics-prose.com</string>
+    <string name="webCoffeeNature">www.coffeenature.wordpress.com</string>
+    <string name="callCoffeeNature">(202)237–8989</string>
+    <string name="udc">Coffee Shops Near UDC</string>
+    <string name="title_activity_start">Start</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="txtTitle">CSCI 398 Case Project 5.4: Coffee Finder App</string>
+    <string name="txtGroupNumber">Group # 4</string>
+    <string name="txtAhmed">Ahmed Almatar</string>
+    <string name="txtManoj">Manoj Subedi</string>
+    <string name="txtPaolo">Paolo Inocencion</string>
+    <string name="txtZaid">Zaid Alanazi</string>
+    <string name="btnFind">Coffee Shops Near UDC</string>
+    <string name="imgCoffeeBack">Coffee Background Image</string>
+</resources>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.coffeefinder.CoffeeNature">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300sp"
+        android:id="@+id/imgCoffeeNature"
+        android:src="@drawable/coffeenature"
+        android:layout_below="@+id/txtCoffeeNature"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/coffeeNature" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCoffeeNature"
+        android:id="@+id/txtCoffeeNature"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtAddCoffeeNature"
+        android:id="@+id/txtAddCoffeeNature"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgCoffeeNature"
+        android:textSize="30sp"
+        style="@style/RtlOverlay.Widget.AppCompat.ActionButton.Overflow" />
+
+    <Button
+        style="@style/RtlOverlay.Widget.AppCompat.ActionButton.Overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/webCoffeeNature"
+        android:id="@+id/webCoffeeNature"
+        android:textSize="25sp"
+        android:layout_above="@+id/callCoffeeNature"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/RtlOverlay.Widget.AppCompat.ActionButton.Overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/callCoffeeNature"
+        android:id="@+id/callCoffeeNature"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+</RelativeLayout>

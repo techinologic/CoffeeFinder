@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.coffeefinder.Politics">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="290sp"
+        android:id="@+id/imgPolitics"
+        android:src="@drawable/politcsandprose"
+        android:layout_below="@+id/txtPolitics"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/politics" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtPolitics"
+        android:id="@+id/txtPolitics"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtAddPolitics"
+        android:id="@+id/txtAddPolitics"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imgPolitics"
+        android:textSize="30sp"
+        style="@style/RtlOverlay.Widget.AppCompat.ActionButton.Overflow" />
+
+    <Button
+        style="@style/RtlOverlay.Widget.AppCompat.ActionButton.Overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/webPolitics"
+        android:id="@+id/webPolitics"
+        android:textSize="25sp"
+        android:layout_above="@+id/callPolitics"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="@style/RtlOverlay.Widget.AppCompat.ActionButton.Overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/callPolitics"
+        android:id="@+id/callPolitics"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -13,11 +13,10 @@ public class MainActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        String[] coffeeShop = {" Starbucks Coffee", " Bread Furst Bakery", " Politics and Prose Bookstore and Coffeehouse", " Coffee Nature"};
+        String[] coffeeShop = {"Starbucks Coffee", "Bread Furst Bakery", "Politics and Prose", "Coffee Nature"};
         setListAdapter(new ArrayAdapter<>(this, R.layout.activity_main, R.id.coffee, coffeeShop));
-
-
     }
+
     protected void onListItemClick(ListView l, View v, int position, long id){
         switch (position){
             case 0:
